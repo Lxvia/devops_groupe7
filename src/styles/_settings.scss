@@ -1,0 +1,59 @@
+// Import Google Font
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+$font: "Poppins";
+$font-family-roboto: 'Roboto', sans-serif;
+
+
+$black: #272727;
+$green: #a3cab9;
+
+@mixin marginCenter {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@mixin rowCenterSpaceB {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin centerScreen {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+@mixin centerAbout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@mixin verticalCenter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    h1 {
+        font-family: $font-family-roboto;
+        color: $black;
+    }
+
+    p, a {
+        font-family: $font-family-roboto;
+        font-size: 14px;
+        color: $black;
+    }
+}
