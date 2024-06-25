@@ -1,7 +1,7 @@
 const Navbar = () => {
     return (
       <div className="navBar">
-        <h1>Accompagnement Digitalisation Numérique</h1>
+        <h3>Groupe 7: Digitalisation Numérique</h3>
       </div>
     );
   };

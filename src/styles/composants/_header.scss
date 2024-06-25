@@ -1,0 +1,12 @@
+.header { 
+    background-color: aquamarine;
+    height: 100vh;
+
+    @include verticalCenter;
+
+    button { 
+        margin-top: 2em;
+        width: fit-content;
+        @include marginCenter;
+     }
+ }
