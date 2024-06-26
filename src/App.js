@@ -7,7 +7,6 @@ import Resultat from "./pages/Resultat.js";
 function App() {
   return (
     <div className="App">
-      <Navbar/>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Accueil />} />
