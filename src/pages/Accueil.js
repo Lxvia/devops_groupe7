@@ -9,3 +9,5 @@ const Accueil = () => {
       </div>
     );
   };
+
+export default Accueil;

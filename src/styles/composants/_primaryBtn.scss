@@ -1,0 +1,20 @@
+.button {
+    button{
+        background: none;
+        outline: none;
+        border: solid 1px $primary-color;
+        width: auto;
+        height: auto;
+        border-radius: 5px;
+        font-family: $body-font-family;
+        color: $primary-color;
+        font-size: 15px;
+        padding : 0.5em 2em 0.5em 2em;
+
+        &:hover{
+            background-color: $primary-color;
+            color: white;
+            cursor: pointer;
+        }
+    }
+}
