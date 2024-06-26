@@ -30,11 +30,9 @@ CREATE TABLE Subaxes (
 
 CREATE TABLE Questions (
     question_id INT PRIMARY KEY AUTO_INCREMENT,
-    form_id INT,
     question_text TEXT NOT NULL,
     axis_id INT,
     subaxis_id INT,
-    FOREIGN KEY (form_id) REFERENCES Forms(form_id),
     FOREIGN KEY (axis_id) REFERENCES Axes(axis_id),
     FOREIGN KEY (subaxis_id) REFERENCES Subaxes(subaxis_id)
 );
