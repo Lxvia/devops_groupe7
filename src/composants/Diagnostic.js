@@ -1,11 +1,19 @@
+import Axis from './Axis';
+import { data } from '../Data'; 
+
 const Diagnostic = () => {
-    return (
-      <div className="diagnostic">
-        <h1>Diagnostic entreprise</h1>
-        <h2>Nom de l'entreprise : Entreprise</h2>
-        
+  console.log(data); // Vérification des données dans la console
+
+  return (
+    <div className="diagnostic">
+      <h1>Résultats du diagnostic :</h1>
+      <div className="axis-list">
+        {data.map((item, index) => (
+          <Axis key={index} axis={item.axis} questions={item.questions} />
+        ))}
       </div>
-    );
-  };
-  
-  export default Diagnostic;
+    </div>
+  );
+};
+
+export default Diagnostic;

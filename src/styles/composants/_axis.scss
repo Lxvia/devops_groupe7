@@ -1,0 +1,10 @@
+.axis {
+    margin-bottom: $base-spacing-unit; // Espacement en bas de chaque axe
+  
+    h2 {
+      font-size: 1.5rem; // Taille de police pour le titre de l'axe
+      margin-bottom: $small-spacing-unit; // Espacement en bas du titre de l'axe
+      font-family: $heading-font-family; // Police de titre
+      color: $primary-color; // Couleur du titre
+    }
+  }

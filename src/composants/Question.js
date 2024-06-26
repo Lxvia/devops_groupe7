@@ -1,15 +1,13 @@
-// src/components/SubAxis.js
+// src/components/Question.js
 import React from 'react';
-import Question from './Question';
 
-const SubAxis = ({ questions }) => {
+const Question = ({ question }) => {
   return (
-    <div>
-      {questions.map((question, index) => (
-        <Question key={index} question={question} />
-      ))}
+    <div className="question">
+      <p>{question.text}</p>
+      <p>Score: {question.score} / {question.maxScore}</p>
     </div>
   );
 };
 
-export default SubAxis;
+export default Question;
