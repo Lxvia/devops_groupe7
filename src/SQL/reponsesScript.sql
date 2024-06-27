@@ -9,14 +9,17 @@ BEGIN
     DECLARE responseValue INT;
 
     -- Assign response_value based on the response text
-    IF responseText = 'Oui, c\' THEN
+    IF responseText = 'Oui\' THEN
         SET responseValue = 2;
-    ELSEIF responseText = 'Oui, mais ce n est pas au centre de nos process' THEN
-        SET responseValue = 1;
-    ELSEIF responseText = 'Non' THEN
+    ELSEIF responseText = 'Ja\' THEN
+        SET responseValue = 0;
+    ELSEIF responseText = 'N\' THEN
+        SET responseValue = 0;
+    ELSEIF responseText = 'Pa\' THEN
+    SET responseValue = 0;ELSEIF responseText = 'Abs\' THEN
         SET responseValue = 0;
     ELSE
-        SET responseValue = NULL; -- or handle other cases if necessary
+        SET responseValue = 1; -- or handle other cases if necessary
     END IF;
 
     -- Insert the response into the Responses table

@@ -66,7 +66,7 @@ INSERT INTO Questions (question_text, axis_id, subaxis_id) VALUES
 ("Les managers sont-ils aussi formateurs sur certains sujets pour l'entreprise entière ?", 1, 1),
 ("L'entreprise favorise-t-elle l'excellence technique ? (Principe 9 du Manifeste Agile)", 1, 1),
 ("Déployez-vous les pratiques du \"Faire Agile\", c'est-à-dire une ou plusieurs des \"méthodes\" agiles ?", 1, 2),
-("Votre entreprise promeut-elle un \"état d'esprit agile\" ?", 1, 2),
+("Votre entreprise promeut-elle un état d'esprit agile\ ?", 1, 2),
 ("Votre entreprise gère-t-elle humainement les compétences ?", 1, 3);
 
 -- Insertion des questions pour l'Axe Réactivité
