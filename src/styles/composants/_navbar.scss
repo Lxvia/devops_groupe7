@@ -1,6 +1,9 @@
-$green: #a3cab9;
-
 .navBar {
-    background-color: $green;
+    background-color: $light-blue;
     height: 3em;
+
+    .logo { 
+        width: 100%;
+        height: auto;
+     }
 }

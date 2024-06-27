@@ -1,28 +1,28 @@
 .sub-axis {
-  margin-bottom: $base-spacing-unit; // Espacement en bas de chaque sous-axe
+  margin-bottom: $base-spacing-unit;
 
   .question {
-    background-color: $light-color; // Couleur de fond pour chaque question
-    border: 1px solid $light-color; // Bordure
-    border-radius: 8px; // Coins arrondis
-    padding: $base-spacing-unit; // Espacement interne
-    margin-bottom: $small-spacing-unit; // Espacement en bas de chaque question
+    background-color: $light-color;
+    border: 1px solid $light-color;
+    border-radius: 8px;
+    padding: $base-spacing-unit;
+    margin-bottom: $small-spacing-unit;
 
     p {
-      font-size: $base-font-size; // Taille de police pour le texte de la question
-      margin-bottom: $small-spacing-unit; // Espacement en bas du paragraphe
-      font-family: $body-font-family; // Police de texte
+      font-size: $base-font-size;
+      margin-bottom: $small-spacing-unit;
+      font-family: $body-font-family;
     }
 
     ul {
-      list-style-type: none; // Liste sans puces
-      padding: 0; // Supprime le padding par défaut
-      margin: 0; // Supprime la marge par défaut
+      list-style-type: none;
+      padding: 0; 
+      margin: 0; 
 
       li {
-        font-size: $base-font-size; // Taille de police pour les réponses
-        margin-bottom: $small-spacing-unit; // Espacement en bas de chaque réponse
-        color: $dark-color; // Couleur du texte
+        font-size: $base-font-size; 
+        margin-bottom: $small-spacing-unit; 
+        color: $dark-color; 
       }
     }
   }
