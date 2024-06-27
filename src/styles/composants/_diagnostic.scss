@@ -1,14 +1,14 @@
 .diagnostic {
-    padding: $base-spacing-unit; // Espacement interne pour le conteneur principal
+    padding: $base-spacing-unit;
   
     h1 {
-      font-size: 2rem; // Taille de police pour le titre principal
-      margin-bottom: $base-spacing-unit; // Espacement en bas du titre principal
-      font-family: $heading-font-family; // Police de titre
-      color: $primary-color; // Couleur du titre
+      font-size: 2rem;
+      margin-bottom: $base-spacing-unit;
+      font-family: $heading-font-family; 
+      color: $dark-blue;
     }
   
     .axis-list {
-      margin-top: $base-spacing-unit; // Espacement en haut de la liste d'axes
+      margin-top: $base-spacing-unit;
     }
   }
