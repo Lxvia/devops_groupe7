@@ -1,0 +1,23 @@
+.secondaryBtn {
+    z-index: 9999 !important;
+    button{
+        background: none;
+        outline: none;
+        border: solid 2px $white;
+        background-color: $white;
+        width: auto;
+        height: auto;
+        border-radius: 5px;
+        font-family: $body-font-family;
+        color: $dark-blue;
+        font-size: 15px;
+        padding : 0.5em 2em 0.5em 2em;
+
+        &:hover{
+            background-color: $dark-blue;
+            border: solid 2px $dark-blue;
+            color: white;
+            cursor: pointer;
+        }
+    }
+}
