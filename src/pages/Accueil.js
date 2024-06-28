@@ -1,11 +1,11 @@
 import Header from "../composants/Header.js";
-import Diagnostic from "../composants/Diagnostic.js";
+import Axes from "../composants/Axes.js";
 
 const Accueil = () => {
     return (
       <div>
         <Header />
-        <Diagnostic />
+        <Axes />
       </div>
     );
   };

@@ -1,14 +1,90 @@
 .diagnostic {
-    padding: $base-spacing-unit;
+  font-family: $body-font-family;
+  padding: $base-spacing-unit;
+  background-color: $light-color;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+  h1 { 
+    margin-bottom: 0.5em;
+   }
   
-    h1 {
-      font-size: 2rem;
-      margin-bottom: $base-spacing-unit;
-      font-family: $heading-font-family; 
-      color: $dark-blue;
-    }
+  h2 {
+    font-family: $heading-font-family;
+    font-size: $large-font-size;
+    color: $dark-blue;
+    margin-bottom: $base-spacing-unit;
+  }
   
-    .axis-list {
-      margin-top: $base-spacing-unit;
+  ul {
+    list-style-type: none;
+    padding: 0;
+    
+    li {
+      margin-bottom: $small-spacing-unit;
+      
+      &:last-child {
+        margin-bottom: 0;
+      }
+      
+      background-color: $white; // Default background color for li
+      
+      padding: $small-spacing-unit;
+      border-radius: 4px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      
+      // Score details
+      p {
+        margin: 0;
+        font-size: $base-font-size;
+        font-weight: bold;
+        
+        // Assuming different colors for different score types
+        &.score-id {
+          color: $dark-blue;
+        }
+        
+        &.average-score {
+          color: $success-color;
+        }
+        
+        &.recommendation {
+          color: $info-color;
+        }
+      }
     }
   }
+
+  .diag {
+    padding: 20px;
+    background-color: $light-blue;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+    li {
+      list-style-type: none;
+      background-color: $white;
+      padding: 15px;
+      border-radius: 8px;
+      margin-bottom: 15px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
+      h5 {
+        font-size: $base-font-size;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+  
+      p {
+        font-size: $small-font-size;
+        margin-bottom: 8px;
+      }
+  
+      p:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+  
+}
