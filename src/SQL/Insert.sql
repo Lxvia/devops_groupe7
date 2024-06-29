@@ -1,5 +1,4 @@
-﻿
---Insertion des données dans la table Axes
+﻿--Insertion des données dans la table Axes
 INSERT INTO Axes (axis_id, axis_name) VALUES
 (1, "Axe Compétence"),
 (2, "Axe Réactivité"),
