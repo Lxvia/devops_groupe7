@@ -23,7 +23,7 @@ CREATE TABLE Axes (
 
 CREATE TABLE Subaxes (
     subaxis_id INT PRIMARY KEY,
-    axis_id INT,
+    axis_id INT PRIMARY KEY,
     subaxis_name VARCHAR(255) NOT NULL,
     FOREIGN KEY (axis_id) REFERENCES Axes(axis_id)
 );

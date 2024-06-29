@@ -57,7 +57,7 @@ INSERT INTO Recommendations (axis_id, subaxis_id, recommendation_text, recommend
 (3, 3, "Il semble que la relation client numérique ne soit pas encore pleinement développée. Nous vous recommandons de commencer par une évaluation des besoins et d'identifier les domaines à améliorer.", "not_addressed");
 
 -- Insertion des questions pour l'Axe Compétences
-INSERT INTO Questions (question_text, axis_id, subaxis_id) VALUES
+INSERT INTO Questions (question_id, question_text, axis_id, subaxis_id) VALUES
 ("Formations pour Apprendre à apprendre, changement de paradigme, \"être à la page\" (au-delà des compétences \"justes\" nécessaires)", 1, 1),
 ("Le co-développement (outil d'intelligence collective) existe-t-il dans l'entreprise ?", 1, 1),
 ("Les collaborateurs sont-ils amenés à partager leurs compétences et sous quelles formes ?", 1, 1),
