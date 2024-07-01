@@ -5,7 +5,6 @@ const Accueil = () => {
     return (
       <div>
         <Header />
-        <Axes />
       </div>
     );
   };
