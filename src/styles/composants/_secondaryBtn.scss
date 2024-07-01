@@ -1,23 +1,35 @@
 .secondaryBtn {
-    z-index: 9999 !important;
-    button{
-        background: none;
-        outline: none;
-        border: solid 2px $white;
-        background-color: $white;
-        width: auto;
-        height: auto;
-        border-radius: 5px;
-        font-family: $body-font-family;
-        color: $dark-blue;
-        font-size: 15px;
-        padding : 0.5em 2em 0.5em 2em;
-
-        &:hover{
-            background-color: $dark-blue;
-            border: solid 2px $dark-blue;
-            color: white;
-            cursor: pointer;
-        }
+    z-index: 9999; // Évitez d'utiliser !important si possible
+    select {
+      background: none;
+      outline: none;
+      border: 2px solid $white;
+      background-color: $white;
+      border-radius: 5px;
+      font-family: $body-font-family;
+      color: $dark-blue;
+      font-size: 15px;
+      padding: 0.5em 1em; // Ajustez selon vos besoins
+      margin-right: 10px; // Ajoutez un espacement à droite du select
     }
-}
+    button {
+      background: none;
+      outline: none;
+      border: 2px solid $white;
+      background-color: $white;
+      border-radius: 5px;
+      font-family: $body-font-family;
+      color: $dark-blue;
+      font-size: 15px;
+      padding: 0.5em 2em; // Ajustez selon vos besoins
+      cursor: pointer;
+      transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+  
+      &:hover {
+        background-color: $dark-blue;
+        border-color: $dark-blue;
+        color: $white;
+      }
+    }
+  }
+  
